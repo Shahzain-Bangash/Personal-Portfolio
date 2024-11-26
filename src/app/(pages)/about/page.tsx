@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="my-4" id="about-sec">
+    <div className="py-4" id="about-sec">
       <h1 className="text-gray-200 text-center mx-auto  w-20">
         <span className="border-b border-[#FD6F00] pb-[2px]">About Me</span>
       </h1>

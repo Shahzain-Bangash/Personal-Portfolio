@@ -28,12 +28,18 @@ body {
     font-family: sans-serif;
   color: rgb(99, 96, 96);
 }
-#service-section,#about-sec{
+#service-section,#about-sec,#footer-sec,#contact-sec{
+  height: 100vh;
+  margin-top: 0%;
   background: linear-gradient(
     to bottom right, 
     rgb(17, 17, 17) 50%, 
     #343333 100% /* Slightly lighter gray for the middle */
     );
 
+}
+#footer-sec{
+  height: 50vh;
+  /* border: 2px solid white; */
 }
 

@@ -18,7 +18,7 @@ export default function Home() {
    
     <div className="h-[100vh]">
       <Header></Header>
-      <main className=" w-[93.5vw] h-[78vh] mx-auto flex gap-16">
+      <main className=" w-[92vw] h-[78vh] mx-auto flex gap-16 px-[16px]">
         <section id="section-1" className=" w-[50%]">
         <div className="pt-8 leading-8">
           <h3 className="text-[1.4rem] text-gray-400 tracking-[0.8px] ">
@@ -94,14 +94,14 @@ export default function Home() {
         </section>
       </section>
       <section id="section-2" className="w-[50%]  h-[300px] ">
-              <div className="mt-8 bg-[#ffffffc3]  w-[20rem] h-[210px] border border-gray-500 shadow-[0px_0px_5px_rgb(49_48_48),-0px_-0px_10px_rgb(70_69_69)] rounded-lg relative text-ellipsis overflow-hidden group" >
+              <div className="mt-8 bg-[#ffffffc3]  w-[20rem] h-[210px] border border-gray-500 shadow-[0px_0px_5px_rgb(49_48_48),-0px_-0px_10px_rgb(70_69_69)] rounded-lg relative text-ellipsis overflow-hidden group mx-auto" >
                 <div className="p-2 rounded-b-lg absolute w-full text-center bg-[#1c1b1b] bottom-0 left-0">
                  <span className="text-transparent relative text-center bg-gradient-to-r from-[#FA6E00] to-[#E60026] bg-clip-text">
                       LOgo
                 </span>
               </div>
               
-                  <span className="absolute text-black text-center font-sans opacity-0 w-[240px] h-[120px] right-[40%] top-[10%]  group-hover:transition-transform group-hover:duration-[0.8s] ease-in-out group-hover:translate-x-[40%]  group-hover:opacity-100 ">
+                  <span className="absolute text-black text-center font-sans opacity-0 w-[240px] h-[120px] right-[40%] top-[10%]  group-hover:transition-transform group-hover:duration-[0.6s] ease-in-out group-hover:translate-x-[35%]  group-hover:opacity-100 ">
                           Innovative Solutions for Modern <br />Challenges. Transforming<br />Ideas into Digital <br />Excellence
                   </span>
                   {/* group-hover:translate-y-[-50%] */}

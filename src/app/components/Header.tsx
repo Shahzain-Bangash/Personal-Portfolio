@@ -3,8 +3,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <nav className="text-[13px] tracking-[0.5px]  px-8 py-2 flex text-white justify-between items-center">
+    <div className="">
+      <nav className="text-[13px] tracking-[0.5px]  px-[52px] py-2 flex text-white justify-between items-center ">
         <Link href="" className="text-[1.5rem]">
           <li className="list-none bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text">
             LOgo
