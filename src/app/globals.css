@@ -26,7 +26,7 @@ body {
     background-position: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
-  
+  color: rgb(99, 96, 96);
 }
 #service-section,#about-sec{
   background: linear-gradient(

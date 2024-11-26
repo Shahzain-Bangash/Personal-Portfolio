@@ -6,14 +6,20 @@ const Header = () => {
     <div>
       <nav className="text-[13px] tracking-[0.5px]  px-8 py-2 flex text-white justify-between items-center">
         <Link href="" className="text-[1.5rem]">
-          <li className="list-none bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text">LOgo</li>
+          <li className="list-none bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text">
+            LOgo
+          </li>
         </Link>
         <ul className="flex gap-6 text-gray-300">
-          <Link href="" >
-            <li className="hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">Home</li>
+          <Link href="">
+            <li className="hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">
+              Home
+            </li>
           </Link>
           <Link href="/services">
-            <li className= "hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">Services</li>
+            <li className="hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">
+              Services
+            </li>
           </Link>
           <Link href="/about">
             <li className= "hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">About me</li>
