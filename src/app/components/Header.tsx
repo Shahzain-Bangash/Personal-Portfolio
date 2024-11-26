@@ -22,13 +22,13 @@ const Header = () => {
             </li>
           </Link>
           <Link href="/about">
-            <li className= "hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">About me</li>
+            <li className= "hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">About me</li>
           </Link>
           <Link href="/contact">
-            <li className= "hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">Contact me</li>
+            <li className= "hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">Contact me</li>
           </Link>
           <Link href="">
-            <li className="list-none hover:bg-gray-700 rounded-md inline-block px-2 py-[0.2em]">Porfolio</li>
+            <li className="list-none hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">Porfolio</li>
           </Link>
         </ul>
         <button className="inline-block text-[0.8rem] w-[5rem] h-[1.7rem] bg-[#E46400] rounded-md hover:bg-[#c9492c]">
