@@ -21,7 +21,7 @@ export default {
         custom2:"830px",
         custom:"920px",
         sm: { min: '640px', max: '768px' },
-        md: { min: '768px', max: '1040px' },
+        md: { min: '768px', max: '1280px' },
         lg: {min:  '1024px', max:  '1280'},
         },
       boxShadow:{
