@@ -9,7 +9,7 @@ const Header = () => {
       
       </div>
       {/* Navigation bar for larger screens  sm:hidden*/}
-      <nav className="text-[13px] tracking-[0.5px]   py-2 flex  text-white justify-between items-center">
+      <nav className=" text-[13px] tracking-[0.5px]   py-2 flex justify-between text-white  items-center">
       <SideNavbar/>
         <Link href="#home-sec" className="text-[1.5rem]">
           <li className="list-none bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text">
