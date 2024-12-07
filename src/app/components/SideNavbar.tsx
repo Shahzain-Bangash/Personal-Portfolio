@@ -72,7 +72,7 @@ const Sidebar = () => {
           ${isMenuOpen ? 'w-[250px] customsm:w-[160px]' : 'w-0'}
         `}
       >
-        <ul className="list-none p-0 m-0 flex flex-col justify-center h-full">
+        <ul className="list-none p-0 m-0 flex flex-col justify-center customsm:justify-normal h-full">
           {menuItems.map((item, index) => (
             <li 
               key={index} 
