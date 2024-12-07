@@ -69,14 +69,14 @@ const Sidebar = () => {
         className={`
           fixed top-0 left-0 h-screen bg-gradient-to-b from-[rgba(46,46,46,0.7)] to-[rgba(128,0,32,0.7)]
           transition-all duration-300 ease-in-out overflow-hidden z-40
-          ${isMenuOpen ? 'w-[250px]' : 'w-0'}
+          ${isMenuOpen ? 'w-[250px] customsm:w-[160px]' : 'w-0'}
         `}
       >
         <ul className="list-none p-0 m-0 flex flex-col justify-center h-full">
           {menuItems.map((item, index) => (
             <li 
               key={index} 
-              className="px-5 py-4 hover:bg-white/10 transition-colors duration-300"
+              className="px-5 py-4 customsm:py-6 hover:bg-white/10 transition-colors duration-300"
             >
               <a 
                 href={item.link} 
