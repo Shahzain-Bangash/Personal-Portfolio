@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,14 +14,13 @@
     --foreground: #ededed;
   }
 }
-
 body {
   color: var(--foreground);
   height: 100vh;
   margin: 0;
   background: linear-gradient(
     to bottom right, 
-    rgb(17, 17, 17) 50%, 
+    rgb(17, 17, 17) 70%, 
     #343333 100%
     );
     background-position: cover;
@@ -28,18 +28,34 @@ body {
     font-family: sans-serif;
   color: rgb(99, 96, 96);
 }
-#service-section,#about-sec,#footer-sec,#contact-sec{
+
+#service-sec{
+  background: linear-gradient(
+    to top right, 
+    rgb(17, 17, 17) 70%, 
+    #343333 100% /* Slightly lighter gray for the middle */
+    );
+}
+#about-sec{
+  background: linear-gradient(
+    to bottom right, 
+    rgb(17, 17, 17) 70%, 
+    #343333 100% /* Slightly lighter gray for the middle */
+    );
+}
+#contact-sec{
   height: 100vh;
   margin-top: 0%;
   background: linear-gradient(
-    to bottom right, 
-    rgb(17, 17, 17) 50%, 
+    to top right, 
+    rgb(17, 17, 17) 70%, 
     #343333 100% /* Slightly lighter gray for the middle */
     );
 
 }
 #footer-sec{
   height: 50vh;
+  background-color: #2b2929;
   /* border: 2px solid white; */
 }
 

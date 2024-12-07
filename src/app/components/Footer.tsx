@@ -3,37 +3,37 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className="pt-1" id='footer-sec'>
+    <footer className="pt-" id='footer-sec'>
         <div>
-        <nav className="text-[13px] tracking-[0.5px]  px-[52px] py-2 flex text-white flex-col items-center ">
+        <nav className="text-[13px] tracking-[0.5px]  px-auto customsm:px-auto  smm:px-auto py-2 flex text-white flex-col items-center ">
             <Link href="" className="text-[1.5rem] pb-4">
            <li className="list-none bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text">
                 LOgo
             </li>
             </Link>
-            <ul className="flex gap-6 text-gray-300">
-            <Link href="">
+            <ul className="flex gap-6 customsm:gap-0 text-gray-300">
+            <Link href="#home-sec">
                 <li className="hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">
                 Home
                 </li>
             </Link>
-            <Link href="/services">
+            <Link href="#service-sec">
                 <li className="hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">
                 Services
                 </li>
             </Link>
-            <Link href="/about">
+            <Link href="#about-sec">
                 <li className= "hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">About me</li>
             </Link>
-            <Link href="/contact">
+            <Link href="#contact-sec">
                 <li className= "hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">Contact me</li>
             </Link>
-            <Link href="">
+            <Link href="#">
                 <li className="list-none hover:bg-gray-700 hover:text-gray-50 rounded-md inline-block px-2 py-[0.2em]">Porfolio</li>
             </Link>
         </ul>
         </nav>
-        <div className="text-[1.6rem] text-gray-300  mx-auto   w-[50%] ">
+        <div className="text-[1.6rem] text-gray-300  mx-auto   w-[60%] smm:w-[90%] customsm:w-[100%]">
         <ul className="flex gap-4 my-3 mx-auto  w-[40%] justify-evenly">
           <li className="border border-gray-500 cursor-pointer hover:shadow-primary hover:text-gray-50 rounded-3xl inline-block w-6 h-6 leading-6 text-center text-xs text-gray-300 ">
             <Link href="">
@@ -57,21 +57,22 @@ const Footer = () => {
           </li>
         </ul>
         </div>
-        <div className='text-gray-300 flex justify-center gap-6 border-b border-gray-300 w-[360px] mx-auto pb-5'>
+        <div className='text-gray-300 flex justify-center gap-6 border-b border-gray-300 customsm:w-[340px] w-[360px]  mx-auto pb-5'>
             <div >
-                <span className="fa-solid fa-envelope inline-block mt-1 text-[14px]"></span>
-                <span className="ml-2 text-[14px]">alishahzain604@gmail.com</span>
+                <span className="fa-solid fa-envelope inline-block mt-1 text-[14px] customsm:text-[12px]"></span>
+                <span className="ml-2 text-[14px] customsm:text-[12px] ">alishahzain604@gmail.com</span>
             </div>
             <div>
-                <span className="fa-solid fa-phone mr-2 inline-block mt-1 text-[14px]"></span>
-                <span className="inline-block text-[14px] ">+92 3363005909</span>
+                <span className="fa-solid fa-phone mr-2 inline-block mt-1 text-[14px] customsm:text-[12px]"></span>
+                <span className="inline-block text-[14px] customsm:text-[12px]">+92 3363005909</span>
             </div>
         </div>
-        <div className='text-gray-300 w-[50%] text-[12px] mx-auto text-center '>
-            <p className='mt-2'>Designed by @shahzain.ali Front-End-Developer</p>
+        <div className='text-gray-300 w-[50%] smm:text-[11px] text-[12px] mx-auto text-center '>
+            <p className='mt-2'>Designed by @shahzain.ali <span className="block smm:inline sm:inline md:inline lg:inline ">Front-End-Developer</span>
+            </p>
         </div>
         </div>
-    </div>
+    </footer>
   )
 }
 
