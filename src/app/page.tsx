@@ -22,7 +22,7 @@ export default function Home() {
       <main className="md:w-[100%] h-[78vh] customsm:w-[100%] mx-auto md:flex sm:w-[100%] customsm:h-[480px]  gap-16 md:gap-[4px] sm:gap-[8px] sm:justify-between sm:ml-0  customsm:text-center custom-[gap-14] sm:flex ">
         <section id="section-1" className="w-[50%] md:w-[80%] sml:w-auto sm:w-[60%] custom:w-[50%]   customsm:w-auto  customsm:justify-center smm:text-center smm:w-auto md:text-left ">
         <div className="pt-8 sm:leading-8 leading-[45px] customsm:leading-[50px]  customsm:mx-auto customsm:w-auto smm:mx-auto smm:w-auto ">
-          <h3 className="text-[1.8] md:text-[2.2rem]   customsm:text-[25px] sm:text-[20px] text-gray-400 tracking-[0.8px] ">
+          <h3 className="text-[1.8] md:text-[2.2rem] smm:text-[25px]   customsm:text-[25px] sm:text-[20px] text-gray-400 tracking-[0.8px] ">
             Hi,I am
           </h3>
           <h2 className="text-[2.2rem] md:text-[2.6rem] sm:text-[24px] text-gray-300 tracking-[1.5px]">
