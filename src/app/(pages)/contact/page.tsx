@@ -9,7 +9,7 @@ const Contact = () => {
     
     
     <div className="px-4 pt-3" id="contact-sec">
-      <div className="text-center">
+      <div className="text-center customsm:mt-10 customsm:leading-8">
         <h1 className="text-gray-200 text-center mx-auto mb-2">
           <span className="border-b border-[#FD6F00] pb-[2px]">Contact Me</span>
         </h1>

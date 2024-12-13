@@ -19,6 +19,7 @@ export default {
     extend: {
       screens:{
         custom2:"830px",
+        custom1:{min:'640px',max:'830px'},
         custom:"920px",
         sm: { min: '640px', max: '768px' },
         md: { min: '768px', max: '1280px' },
