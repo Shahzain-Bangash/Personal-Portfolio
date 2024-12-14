@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="landscape:" id='footer-sec'>
+    <footer className="landscape:mt-2" id='footer-sec'>
         <div>
         <nav className="text-[13px] tracking-[0.5px]  px-auto customsm:px-auto  smm:px-auto py-2 flex text-white flex-col items-center ">
             <Link href="" className="text-[1.5rem] pb-4">
@@ -67,7 +67,7 @@ const Footer = () => {
                 <span className="inline-block text-[14px] customsm:text-[12px]">+92 3363005909</span>
             </div>
         </div>
-        <div className='text-gray-300 w-[50%] smm:text-[11px] text-[12px] mx-auto text-center pb-2 '>
+        <div className='text-gray-300 w-[50%] smm:text-[11px] text-[12px] mx-auto text-center landscape:pb-4 '>
             <p className='mt-2 '>Designed by @shahzain.ali <span className="block smm:inline sm:inline md:inline lg:inline ">Front-End-Developer</span>
             </p>
         </div>
