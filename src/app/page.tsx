@@ -4,11 +4,23 @@ import Header from "./components/Header";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";;
+import { useEffect } from "react";
 
 
 
 
 export default function Home() {
+  useEffect(() => {
+    const handleResize = () => {
+      // Handle resize logic here
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Clean up event listener
+    };
+  }, []);
   
   return (
    
