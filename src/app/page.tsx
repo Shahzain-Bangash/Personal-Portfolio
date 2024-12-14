@@ -42,7 +42,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="text-[2.8rem] font-bold h-[62px] customsm:w-auto ">
-          <div className="text-[2.8rem] md:text-[2.8rem]  sml:text-[30px] font-bold h-[60px] leading-[62px] relative top-0  sm:text-[32px] sm:leading-12">
+          <div className="text-[2.8rem] md:text-[2.8rem] sml:text-[28px] customsm:text-[32px]  font-bold h-[60px] leading-[62px] relative top-0  sm:text-[32px] sm:leading-12">
             <Typewriter 
               options={{
                 strings: [
