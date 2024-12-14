@@ -5,16 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  background: url('/Desktop - 1.png');
-
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 body {
   color: var(--foreground);  /* Set text color */
   height: 100vh;  /* Set body height to 100% of the viewport */
@@ -26,6 +18,7 @@ body {
   font-family: sans-serif;  /* Set font */
 }
 
+
 #service-sec{
   height: calc(var(--vh, 1vh) * 100); /* Uses dynamically updated value */
   /* background: linear-gradient(
@@ -34,14 +27,7 @@ body {
     #343333 100% /* Slightly lighter gray for the middle 
     ); */
 }
-#about-sec{
-    /* background: linear-gradient( */
-    /* to bottom right, 
-    rgb(17, 17, 17) 70%, 
-    #343333 100% Slightly lighter gray for the middle 
-     ); */
-    
-}
+
 #contact-sec{
   height: 100vh;
   margin-top: 0%;
@@ -57,5 +43,10 @@ body {
   height: 50vh;
   background-color: #2b2929;
   /* border: 2px solid white; */
+}
+@media (orientation: landscape) {
+  #footer-sec {
+    height: 60vh;
+  }
 }
 
