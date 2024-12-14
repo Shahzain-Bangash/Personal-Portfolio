@@ -3,18 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #2b2929;  /* Dark color */
+  --foreground: #171717;  /* Text color */
 }
 
 body {
   color: var(--foreground);  /* Set text color */
   height: 100vh;  /* Set body height to 100% of the viewport */
   margin: 0;  /* Remove default margin */
-  background-image: url('/Desktop - 1.png');  /* Set background image */
-  background-size: cover;  /* Ensure background image covers entire body */
-  background-position: center;  /* Center the background image */
-  background-repeat: no-repeat;  /* Prevent background image from repeating */
+  background-color: rgb(15, 14, 14);  /* Set dark background color */
   font-family: sans-serif;  /* Set font */
 }
 
