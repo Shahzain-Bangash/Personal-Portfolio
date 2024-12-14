@@ -12,7 +12,7 @@ export default function Home() {
   
   return (
    
-    <div className="h-[100vh] w-[100%] " id="home-sec box-border">
+    <div className="h-[100vh] w-[100%] landscape:min-h-screen landscape:bg-gradient-to-br landscape:to-[rgb(17, 17, 17)] landscape:from-[rgb(255, 255, 255)] landscape:w-screen landscape:h-auto " id="home-sec box-border">
       <div className=" w-[88%]  box-border mx-auto  custom1:w-[95%] ">
       <Header></Header>
 

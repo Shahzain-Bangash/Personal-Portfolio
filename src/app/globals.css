@@ -5,54 +5,51 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  background: url('/Desktop - 1.png');
 
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 body {
-  color: var(--foreground);
-  height: 100vh;
-  margin: 0;
-  background: linear-gradient(
-    to bottom right, 
-    rgb(17, 17, 17) 70%, 
-    #343333 100%
-    );
-    background-position: cover;
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-  color: rgb(99, 96, 96);
+  color: var(--foreground);  /* Set text color */
+  height: 100vh;  /* Set body height to 100% of the viewport */
+  margin: 0;  /* Remove default margin */
+  background-image: url('/Desktop - 1.png');  /* Set background image */
+  background-size: cover;  /* Ensure background image covers entire body */
+  background-position: center;  /* Center the background image */
+  background-repeat: no-repeat;  /* Prevent background image from repeating */
+  font-family: sans-serif;  /* Set font */
 }
 
 #service-sec{
   height: calc(var(--vh, 1vh) * 100); /* Uses dynamically updated value */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to top right, 
     rgb(17, 17, 17) 70%, 
-    #343333 100% /* Slightly lighter gray for the middle */
-    );
+    #343333 100% /* Slightly lighter gray for the middle 
+    ); */
 }
 #about-sec{
-    background: linear-gradient(
-    to bottom right, 
+    /* background: linear-gradient( */
+    /* to bottom right, 
     rgb(17, 17, 17) 70%, 
-    #343333 100% /* Slightly lighter gray for the middle */
-     );
+    #343333 100% Slightly lighter gray for the middle 
+     ); */
     
 }
 #contact-sec{
   height: 100vh;
   margin-top: 0%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to top right, 
     rgb(17, 17, 17) 70%, 
     #343333 100% 
-    );
+    ); */
 
 
 }
