@@ -67,8 +67,8 @@ const Footer = () => {
                 <span className="inline-block text-[14px] customsm:text-[12px]">+92 3363005909</span>
             </div>
         </div>
-        <div className='text-gray-300 w-[50%] smm:text-[11px] text-[12px] mx-auto text-center '>
-            <p className='mt-2'>Designed by @shahzain.ali <span className="block smm:inline sm:inline md:inline lg:inline ">Front-End-Developer</span>
+        <div className='text-gray-300 w-[50%] smm:text-[11px] text-[12px] mx-auto text-center pb-2 '>
+            <p className='mt-2 '>Designed by @shahzain.ali <span className="block smm:inline sm:inline md:inline lg:inline ">Front-End-Developer</span>
             </p>
         </div>
         </div>
