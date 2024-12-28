@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     
     
-    <div className="px-4 pt-3 mt-10 landscape:mb-[140px]" id="contact-sec">
+    <div className="px-4 pt-3  sm:landscape:mb-[140px] md:landscape:mb-[100px] " id="contact-sec">
       <div className="text-center customsm:mt-10 customsm:leading-8">
         <h1 className="text-gray-200 text-center mx-auto mb-2">
           <span className="border-b border-[#FD6F00] pb-[2px]">Contact Me</span>

@@ -23,7 +23,7 @@ body {
   
 }
 #contact-sec{
-  height: 100vh;
+  height: auto;
   /* background: linear-gradient(
     to top right, 
     rgb(17, 17, 17) 70%, 
@@ -36,16 +36,17 @@ body {
   background-color: #2b2929;
   /* border: 2px solid white; */
 }
-@media (min-width: 200px) and (max-width: 500px) {
+@media (orientation: landscape) and (min-width: 200px) and (max-width: 480px) {
   #footer-sec {
-      height: 80vh;
+      height: 100px;
+      margin-top: 150px;
+  }
+}
+@media (min-width: 200px) and (max-width: 1440px) {
+  #footer-sec {
+      height: auto;
       margin-top: 150px;
   }
 }
 
-@media (orientation: landscape) {
-  #footer-sec {
-    height: 80vh;
-  }
-}
 

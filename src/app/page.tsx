@@ -117,7 +117,7 @@ export default function Home() {
       {/*############## Screen Section ################# */}
 
       <section id="section-2" className="w-[20%]  md:w-[35%]  md:mr-0 customsm:hidden  smm:hidden md:block sm:w-[40%] sm:mr-0 mx-auto mr-4">
-              <div className="mt-8  border border-red-500 bg-[#ffffffc3] sm:w-[15rem]  md:w-[100%] custom:w-[20rem] w-[20rem] h-[240px] shadow-[0px_0px_5px_rgb(49_48_48),-0px_-0px_10px_rgb(70_69_69)] rounded-lg relative text-ellipsis overflow-hidden group mx-auto" >
+              <div className="mt-8  border border-red-500 bg-[#ffffffc3] sm:w-[15rem]  md:w-[100%] custom:w-[20rem] w-[20rem] sm:landscape:h-[210px] h-[240px] shadow-[0px_0px_5px_rgb(49_48_48),-0px_-0px_10px_rgb(70_69_69)] rounded-lg relative text-ellipsis overflow-hidden group mx-auto" >
                 <div className="p-2 rounded-b-lg absolute w-full text-center bg-[#1c1b1b] bottom-0 left-0  h-[50px]">
                  <span className="text-transparent relative text-center bg-gradient-to-r from-[#FA6E00] to-[#E60026] bg-clip-text ">
                       LOgo
