@@ -16,23 +16,33 @@ body {
 }
 
 
-
+#service-sec{
+ 
+}
+#about-sec{
+  
+}
 #contact-sec{
   height: 100vh;
-  margin-top: 0%;
   /* background: linear-gradient(
     to top right, 
     rgb(17, 17, 17) 70%, 
     #343333 100% 
     ); */
 
-
 }
 #footer-sec{
-  height: 50vh;
+  height: 35vh;
   background-color: #2b2929;
   /* border: 2px solid white; */
 }
+@media (min-width: 200px) and (max-width: 500px) {
+  #footer-sec {
+      height: 80vh;
+      margin-top: 150px;
+  }
+}
+
 @media (orientation: landscape) {
   #footer-sec {
     height: 80vh;

@@ -6,7 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const Services = () => {
     
   return (
-    <div className="pt-10 customsm:px-0 sm:p-1 smm:p-1 landscape:mt-32" id="service-sec">
+    <div className="pt-10 customsm:px-0 sm:p-1 smm:p-1 mt-12 smm:landscape:mt-36 md:landscape:mt-36 sm:landscape:mt-36" id="service-sec">
       <div className="">
       <h1 className=" mx-auto my-0 text-gray-300 text-center w-16 border-b border-[#FD6F00]">
         Services

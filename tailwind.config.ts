@@ -7,23 +7,16 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens:{
-      smm:{min:'480px', max: '640px' },
-      customsm: { min: '200px', max: '480px' },
-      sml:{min:'200px',max:'420px'},
-      
-      xl: '1280px',
-      '2xl': '1536px',
-      
-    },
     extend: {
       screens:{
+        customsm: { min: '200px', max: '480px' },
+        smm:{min:'480px', max: '640px' },
         custom2:"830px",
         custom1:{min:'640px',max:'830px'},
-        custom:"920px",
         sm: { min: '640px', max: '768px' },
         md: { min: '768px', max: '1280px' },
         lg: {min:  '1024px', max:  '1280'},
+        xl: '1280px','2xl': '1536px',
         },
       boxShadow:{
          primary: "0px 0px 5px gray",

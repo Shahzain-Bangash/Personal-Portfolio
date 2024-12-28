@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="py-8 w-[100vw] landscape:mt-[140px]" id="about-sec">
+    <div className="py-8 w-[100vw] mt-10 sm:landscape:mt-12" id="about-sec">
       <h1 className="text-gray-200 text-center mb-8">
         <span className="border-b border-[#FD6F00] pb-[2px]">About Me</span>
-      </h1>
+      </h1>F
       <div className=" box-border overflow-hidden ">
       <div className="grid grid-cols-[repeat(2,350px)] sm:w-auto lg:w-auto w-auto mx-auto sm:grid-cols-[repeat(2,350px)]  customsm:grid-cols-[repeat(1,300px)]  smm:grid-cols-[repeat(1,400px)] smm:gap-y-7 customsm:gap-y-5  customsm:justify-center smm:justify-center sm:justify-center sm:gap-0 md:gap-x-10 md:justify-center box-border ">
         {/* Image Container */}
