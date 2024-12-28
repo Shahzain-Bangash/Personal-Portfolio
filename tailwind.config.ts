@@ -8,7 +8,7 @@ export default {
   ],
   theme: {
     screens:{
-      smm:{min:'480px', max: '639.5px' },
+      smm:{min:'480px', max: '640px' },
       customsm: { min: '200px', max: '480px' },
       sml:{min:'200px',max:'420px'},
       

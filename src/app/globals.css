@@ -16,14 +16,6 @@ body {
 }
 
 
-#service-sec{
-  height: calc(var(--vh, 1vh) * 100); /* Uses dynamically updated value */
-  /* background: linear-gradient(
-    to top right, 
-    rgb(17, 17, 17) 70%, 
-    #343333 100% /* Slightly lighter gray for the middle 
-    ); */
-}
 
 #contact-sec{
   height: 100vh;
